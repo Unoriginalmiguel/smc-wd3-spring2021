@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+		"liveServer.settings.useLocalIp": true,
+		"liveServer.settings.CustomBrowser": "firefox:PrivateMode"
+	}
+}
