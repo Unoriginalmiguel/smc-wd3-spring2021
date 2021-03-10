@@ -1,0 +1,13 @@
+.alert-danger {
+    color: purple;
+    background-color: salmon;
+    border-color: blue;
+}
+
+.alert-danger .alert-link {
+    color: lime;
+}
+
+.card {
+
+}
