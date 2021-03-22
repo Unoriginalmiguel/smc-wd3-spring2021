@@ -7,27 +7,47 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 
-    <title>Hai, world!</title>
+    <title>USA's Involvement in WWII </title>
 
   </head>
     <style>
-      .nav-brand img {
-        max-width: 40px;
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+      .navbar-brand img {
+        max-width: 15%;
+        padding-left: 5%;
+      }
+      .navbar-brand {
+        margin-right: -25rem;
       }
       .wwimgs {
       height: 20%;
       }
+
+      .h1, h1 {
+      padding: 3%;
+      font-family: 'Lora', serif;
+      }
+      .h3, h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: small;
+      }
+
     </style>
   <body>
  <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/american-flag.png" alt="my amazing logo" class="img-fluid"/>
+                </a>
     
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -35,59 +55,78 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mother Earth</a>
+          <a class="nav-link" href="#">Timeline</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Water</a>
+          <a class="nav-link" href="#">Important Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Life</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
  </header>
-    <h1 class="text-center text-uppercase">Hello, Aliens!</h1>
+    <h1 class="text-center text-uppercase">The USA's Involvement in WWII</h1>
 
-    <div class="container">
-  <div class="row">
-    <div class="col-12 col-md-4">
-      <img src="img/wwii-1.png" alt="WWII" class="wwimgs"/>
-      1 of 3
-    </div>
-    <div class="col-6">
-      <img src="img/wwii-1.png" alt="WWII" class="wwimgs">
-      2 of 3 (wider)
-    </div>
-    <div class="col">
-      <img src="img/wwii-1.png" alt="WWII" class="wwimgs">
-      3 of 3
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <img src="img/wwii-1.png" alt="WWII" class="wwimgs">
-      1 of 3
-    </div>
-    <div class="col-5">
-      <img src="img/wwii-1.png" alt="WWII" class="wwimgs">
-      2 of 3 (wider)
-    </div>
-    <div class="col">
-      <img src="img/wwii-1.png" alt="WWII" class="wwimgs">
-      3 of 3
-    </div>
-  </div>
-</div>
+        <div class="container ">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/wwii-1.jpg" alt="Photo of black tea" width="100%"><rect width="100%" height="100%"></rect>
+                        <div class="card-body">
+                            <h3>Japan Attack on Pearl Harbor, USA 1941</h3>
+                        </div>
+                    </div>
+                </div>
 
-         <div class="container">
-      <div class="row">
-       <div class="col-12 col-md-6 col-x1-2 bg-primary">Row 1 : Col 1</div>
-       <div class="col-12 col-md-6 col-x1-4 bg-secondary">Row 1 : Col 2</div>
-       <div class="col-12 col-md-6 bg-info">Row 1 : Col 3</div>
-      </div>
-     </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/wwii-2.jpg" alt="Photo of green tea" width="100%"><rect width="100%" height="100%"></rect>
+                        <div class="card-body">
+                            <h3>Invasion of Normandy, France 1994</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/wwii-3.jpg" alt="Photo of oolong tea" width="100%"><rect width="100%" height="100%"></rect>
+                        <div class="card-body">
+                            <h3>Aftermath of Normandy, France 1994</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/wwii-4.jpg" alt="Photo of white tea" width="100%"><rect width="100%" height="100%"></rect>
+                        <div class="card-body">
+                            <h3>Allies Move Towards Berline, Germany 1945</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/wwii-5.jpg" alt="Photo of yellow tea" width="100%"><rect width="100%" height="100%"></rect>
+                        <div class="card-body">
+                            <h3>Atomic Bomb on Nagasaki, Japan 1945</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/wwii-7.jpg" alt="Photo of dark tea" width="100%"><rect width="100%" height="100%"></rect>
+                        <div class="card-body">
+                            <h3>WWII Ending Celebration New York, USA 1945</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
