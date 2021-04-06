@@ -1,0 +1,83 @@
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css?_cacheOverride=1617690505355 */
+
+.carousel-caption.h5 > h5 {
+    font-family: Lato;
+    font-size: 3rem;
+    color: white;
+    font-variant-caps: all-petite-caps;
+    font-style: italic;
+}
+
+.h1, h1 {
+    font-family: Lato;
+    color: #184B00;
+    font-variant-caps: all-petite-caps;
+    font-style: italic;
+}
+
+.p, p {
+
+font-family: Open Sans;
+font-weight: lighter;
+}
+
+/* index.css | http://192.168.8.126:5500/week-6/midterm/css/index.css */
+
+
+.text-dark {
+    color: white !important;
+}
+
+
+.carousel-caption.d-none.d-md-block.text-dark {
+
+margin-bottom: 1em;
+
+}
+
+section.container {
+    margin-bottom: 7%;
+}
+
+section.container.h5, h5 {
+    font-family: Lato;
+    font-size: 3rem;
+    color: #1ADE09;
+    font-variant-caps: all-petite-caps;
+    font-style: italic;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row {
+        margin-bottom: 15%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    section.container.row {
+        margin-bottom: 15%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section.container.row {
+        margin-bottom: 15%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    section.container {
+        margin-bottom: 7%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    section.container {
+        margin-bottom: 8%;
+    }
+}

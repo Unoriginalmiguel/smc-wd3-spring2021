@@ -1,0 +1,43 @@
+.alert>strong:nth-child(1) {
+    font-family: lato;
+    font-weight: lighter;
+    font-size: 140%;
+}
+
+.alert-link {
+    font-family: lato;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.strong {
+
+text-align: center;
+
+}
+
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css */
+
+.alert-warning {
+    color: white;
+    background-color: #184B00;
+    border-color: #184B00;
+}
+
+/* Element | http://192.168.8.126:5500/week-6/midterm/index.html */
+
+.alert {
+    margin-bottom: 0px;
+}
+
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css?_cacheOverride=1617701806085 */
+
+.alert-warning {
+    color: white;
+    background-color: #184B00;
+    border-color: #184B00;
+}
+
+.alert-warning .alert-link {
+    color: white;
+}

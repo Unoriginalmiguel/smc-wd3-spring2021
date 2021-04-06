@@ -1,0 +1,25 @@
+.bg-light {
+
+    background-image: linear-gradient(to bottom right, #ebffe2, #f8f8f8);
+}
+
+.navbar-nav {
+    font-family: Lato;
+    font-weight: bolder;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #055B8B;
+}
+
+/* NAV BOTTO< */
+a {
+    color: #1ADE09;
+}
+
+a:hover {
+    color: #184B00;
+}
