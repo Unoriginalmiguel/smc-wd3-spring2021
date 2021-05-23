@@ -1,0 +1,110 @@
+
+
+
+/* Element | file:///Users/redplayer/Documents/smc-wd3-spring2021/week-9/homework/index.html */
+
+.navbar {
+background-image: linear-gradient(to right top, #00ff88, #52fb6f, #75f656, #90f13a, #a8eb12);
+}
+
+
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css */
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    /* color: rgba(0,0,0,.9); */
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Element | file:///Users/redplayer/Documents/smc-wd3-spring2021/week-9/homework/index.html# */
+
+.navbar-brand {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* Element | file:///Users/redplayer/Documents/smc-wd3-spring2021/week-9/homework/index.html# */
+
+.active {
+    font-weight: bold;
+}
+
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css */
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    transition: step-end;
+    transition-delay: .8ms;
+    font-size: larger;
+    transition-duration: .9ms;
+    transform: rotate(4deg);
+}
+.container {
+padding-top: 3%;
+}
+
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css */
+
+
+.card {
+    border: 0px solid rgba(0,0,0,.125);
+}
+
+
+.card-img,
+.card-img-top {
+    border-radius: 2%;
+}
+
+
+.h1, h1 {
+padding-bottom: 3%;
+font-size: xxx-large;
+font-weight: bolder;
+font-style: normal;
+
+}
+
+.h5, h5 {
+
+font-weight: bold;
+font-style: oblique;
+font-size: larger;
+}
+
+
+
+
+img.card-img,
+.card-img-top {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: url(#blur);
+    filter: blur(10px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+    -webkit-transition: .5s -webkit-filter linear;
+    -o-transition: .5s -o-filter linear;
+
+}
+
+img.card-img,
+.card-img-top:hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+    filter: blur(0px);
+}
+
+
+
+
+
