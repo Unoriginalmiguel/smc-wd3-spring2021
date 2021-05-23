@@ -1,0 +1,81 @@
+.bg-light {
+    background-color: #aaffb0!important;
+}
+
+.navbar-light .navbar-brand {
+    color: blue;
+}
+
+a.navbar-brand {
+    font-weight: 700;
+    color: blue;
+}
+
+a.nav-link.active {
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn-primary {
+    color: blue;
+    background-color: #aaffb0;
+    border-color: #aaffb0;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: #aaffb0;
+    background-color: blue;
+    border-color: blue;
+}
+
+/* Purchase */
+
+.col {
+    padding-top: 5%;
+}
+
+.btn-warning {
+    background-color: #aaffb0;
+    border-color: #aaffb0;
+    color: blue;
+    font-weight: 700;
+}
+
+.btn-warning:hover {
+    background-color: blue;
+    border-color: blue;
+    color: #aaffb0;
+    font-weight: 700;
+}
+
+.h3, h3 {
+padding-top: 5%;
+padding-bottom: 4%;
+}
+
+.information {
+padding-top: 3%;
+}
+
+.btn {
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
