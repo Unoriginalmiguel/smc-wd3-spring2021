@@ -17,6 +17,7 @@ let colorVal = 'white';
 
 let score = 0;
 
+let colors = ['tan', 'lightcoral', 'palevioletred', 'orange', 'violet'];
 
 
 function drawFrame(){
