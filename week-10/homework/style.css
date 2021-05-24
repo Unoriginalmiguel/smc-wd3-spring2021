@@ -1,0 +1,70 @@
+body {
+background-color: #ED1945;
+position: relative;
+}
+
+
+.ucimg {
+    display: block;
+    padding-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    animation: mymove 2s infinite;
+}
+
+.c1 {
+position: absolute;
+padding-top: 30%;
+animation: moveImage 150s linear infinite;
+left: 0px;
+z-index: -1;
+}
+
+.c2 {
+  position: absolute;
+  padding-top: 10%;
+  animation: moveImage 80s linear infinite;
+  left: 50px;
+  z-index: -1;
+}
+
+.c3 {
+  position: absolute;
+  padding-top: -10%;
+  animation: moveImage 250s linear infinite;
+  left: 350px;
+  z-index: -1;
+}
+
+@keyframes moveImage {
+  100% {
+    transform: translateX(calc(100vw + 350px));
+  }
+}
+
+
+/* TRIAL */
+
+#div1 {
+display: block;
+  position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  height: 150px;
+  width: 40%;
+  padding: 10px;
+  perspective: 425px;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  50% {perspective-origin: 10px 50%;}
+}
+
+#div2 {
+  padding: 50px;
+  position: absolute;
+  transform: rotateX(25deg);
+}
+
