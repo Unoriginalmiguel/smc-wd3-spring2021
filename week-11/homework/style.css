@@ -1,0 +1,67 @@
+
+
+canvas {
+    border-width: 30px;
+    border-style: groove;
+    border-color: rgb(92, 92, 92);
+background-image: linear-gradient(to left, #dfdfdf, #cfcfcf, #bfbfbf, #b3b3b3, #b9b9b9);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+width: 55%;
+}
+
+/* INSPIRATION */
+
+.control {
+  margin: auto;
+  width: 55%;
+    border-width: 30px;
+    border-style: groove;
+    border-color: rgb(92, 92, 92);
+    background-image: linear-gradient(to left, #dfdfdf, #cfcfcf, #bfbfbf, #b3b3b3, #b9b9b9);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+.h3, h3 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ font-size: xx-large;
+ color: black;
+}
+
+.colors{
+ margin-left: 5%;
+}
+
+.btnlist {
+    margin-top: 4%;
+}
+
+.btn {
+    width: 7%;
+    height: 44px;
+    border-radius: 10%;
+    border: 0;
+    margin-right: 5%;
+    float: right;
+        border-width: 5px;
+        border-style: groove;
+}
+
+
+.btn[data-color="red"] {
+    background: rgb(207, 2, 36);
+}
+
+.btn[data-color="green"] {
+    background: rgb(0, 228, 30);
+}
+
+.btn[data-color="blue"] {
+    background: rgb(0, 47, 255);
+}
