@@ -24,7 +24,6 @@ function drawFrame(){
     ctx.clearRect(0, 0, cWidth, cHeight);
 
     ctx.fillStyle = colorVal;
-    ctx.strokeStyle = "black";
 
     ctx.beginPath();
     ctx.arc(cPosX, cPosY, cRadius, 0, Math.PI*2);
