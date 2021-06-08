@@ -8348,7 +8348,7 @@ font-family: 'Lato', sans-serif;
 
 .display-4 {
   font-size: 5rem;
-  line-height: 2.2;
+line-height: 1.5;
   font-weight: lighter;
   font-family: 'Halant', serif;
   font-style: italic;
@@ -8770,7 +8770,7 @@ button.btn {
   font-style: italic;
   font-kerning: normal;
   font-variant-caps: small-caps;
-  color: white;
+  color: #8e0000;
 }
 
 /* NAV * HEADER SPACING */
@@ -8810,4 +8810,15 @@ a:hover {
 
 a {
   color: white;
+}
+
+/* style.css | file:///Users/redplayer/Documents/smc-wd3-spring2021/week-16-final/week-15-home:index/css/style.css */
+
+.owl-carousel .owl-dots .owl-dot.active {
+  /* background: #b063c5; */
+  background: #8e0000;
+}
+
+body {
+  background-color: #eaeaea;
 }
