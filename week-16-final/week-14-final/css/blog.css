@@ -60,3 +60,18 @@ font-family: 'Lato', sans-serif;
 
 /* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css */
 
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

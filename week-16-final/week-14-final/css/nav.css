@@ -26,13 +26,13 @@ button.btn>class\=\"menu-title\":nth-child(3) {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     /* color: rgba(0,0,0,.9); */
-    color: rgb(98, 0, 255);
+    color: #8e0000;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     /* color: rgba(0,0,0,.7); */
-    color: rgb(43, 0, 255);
+    color: #8e0000;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -70,7 +70,7 @@ button.btn>class\=\"menu-title\":nth-child(3) {
 
 /* NAVBAR SHADOW */
 
-.bg-light {
+.navbar.bg-light {
     box-shadow: 0px -105px 149px 5px #000;
     background-color: #eaeaea !important;
 }
@@ -161,10 +161,9 @@ button.btn>class\=\"menu-title\":nth-child(3) {
 }
 
 .btn-outline-dark:hover {
-    /* background-color: #212529; */
-    /* border-color: #212529; */
-    background-color: #0180ff;
-    border-color: #ff01ef;
+
+    background-color: #8e0000;
+    border-color: #8e0000;
 }
 
 /* Element | file:///Users/redplayer/Documents/smc-wd3-spring2021/week-14-final/html/index.html# */
@@ -188,6 +187,7 @@ button.btn {
 }
 
 
+
 /* NAV * HEADER SPACING */
 
 header.bg-dark.py-5 {
@@ -198,11 +198,21 @@ header.bg-dark.py-5 {
     header.bg-dark.py-5 {
         margin-top: 60px;
     }
+    .navbar-toggler {
+        margin-left: 250px;
+        margin-bottom: 10px;
+margin-top: -50px;
+    }
 }
 
 @media (min-width: 768px) {
     header.bg-dark.py-5 {
         margin-top: 60px;
+    }
+    .navbar-toggler {
+        margin-left: 610px;
+        margin-bottom: 10px;
+        margin-top: -80px;
     }
 }
 
@@ -210,4 +220,31 @@ header.bg-dark.py-5 {
     header.bg-dark.py-5 {
         margin-top: 110px;
     }
+}
+
+/* BG LIGHT */
+
+
+header.bg-light.py-5 {
+    background-color: #8e0000 !important;
+}
+
+@media (min-width: 360px) {
+    .navbar-toggler {
+        margin-left: 250px;
+        margin-bottom: 10px;
+        margin-top: -50px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .navbar-toggler {
+        margin-left: 610px;
+        margin-bottom: 10px;
+        margin-top: -80px;
+    }
+}
+
+@media (min-width: 992px) {
 }
