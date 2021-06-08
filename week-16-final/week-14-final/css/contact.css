@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=BioRhyme:wght@200;300;400;700&family=Halant:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Prata&display=swap');
+
+/* { font-family: 'Abhaya Libre', serif;
+font-family: 'BioRhyme', serif;
+font-family: 'Prata', serif;
+
+font-family: 'Halant', serif;
+font-family: 'Lato', sans-serif;
+} */
+
+body {
+    margin-top: 20px;
+}
+
+
+/*======= Contact ======*/
+
+.contact-form {
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+div.row:nth-child(1) {
+    margin-bottom: 10%;
+}
+
+.h4, h4 {
+    font-family: 'Halant',
+    serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-kerning: normal;
+    font-variant-caps: small-caps;
+    font-size: 2rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+p.contact-pg {
+    font-size: 1.2rem;
+    font-family: 'Lato',
+    sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+p.fw-bold {
+    color: #8a1515;
+}
+
+.form-control {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 2px solid #cecece;
+    height: 38px;
+}
+
+.form-control:hover,
+.form-control:focus {
+    border-color: #97a0af;
+}
+
+
+.error {
+    margin: 8px 0px;
+    display: none;
+    color: red;
+}
+
+#ajaxsuccess {
+    font-size: 16px;
+    width: 100%;
+    display: none;
+    clear: both;
+    margin: 8px 0px;
+}
+
+.con_sub_text {
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+.contact-detail-box {
+    margin-bottom: 50px;
+}
+
+.contact-detail-box address {
+    font-size: 1.2rem;
+    font-family: 'Lato',
+    sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.contact-map {
+    background-color: #ededed;
+}
+
+.title-box .border,
+.btn-primary,
+.back-to-top,
+.logo i,
+.question-q-box,
+.social-circle li a:hover {
+    background-color: #f16000 !important;
+}
+
+/* COLOR HERE */
+
+.title-box .title-alt,
+.text-colored,
+.footer a:hover,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active,
+.navbar-custom .navbar-nav li.active a {
+    color: #8a1515;
+}
+
+.btn-primary {
+    border: 1px solid #f16000 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open>.dropdown-toggle.btn-primary,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    background-color: #d85600 !important;
+    border: 1px solid #d85600 !important;
+}
+
+.btn-shadow.btn-primary {
+    box-shadow: 1px 5px 9px rgba(241, 96, 1, 0.32);
+}
+
+
+
+/*======= Responsive ======*/
+@media (min-width: 768px) {
+    .nav-custom-left {
+        margin-left: 5%;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contact-page .col-sm-6 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-custom {
+        -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    }
+
+    .screen-space {
+        margin: 0px auto 50px auto;
+    }
+
+    .feature-detail {
+        padding: 0px 0px 50px 30px !important;
+    }
+
+    .footer h5 {
+        margin-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .blog-wrapper .blog-item {
+        width: 50%;
+    }
+
+    .navbar-custom .navbar-nav li a {
+        font-size: 12px;
+    }
+
+    .blog-detail-box {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+    .blog-wrapper .blog-item {
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 7px;
+    }
+
+    .blog-detail-box {
+        padding-right: 0px;
+    }
+}
+
+/* MAP */
+
+.contact-map {
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-radius: 2%;
+    color: white;
+}
